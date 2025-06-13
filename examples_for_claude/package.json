@@ -1,14 +1,17 @@
 {
-  "name": "claude",
+  "name": "examples_for_claude",
   "version": "1.0.0",
   "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "aq",
   "license": "ISC",
   "description": "",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
   "dependencies": {
     "@anthropic-ai/claude-code": "^1.0.22"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3"
   }
 }
