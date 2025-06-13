@@ -1,0 +1,14 @@
+{
+  "name": "threejs-game-creator",
+  "version": "1.0.0",
+  "description": "An agent that creates Three.js games using Claude Code",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^1.0.22"
+  }
+}
