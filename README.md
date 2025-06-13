@@ -335,7 +335,7 @@ The response structure looks like this:
 ]
 ```
 
-The same results can be seen in `tsx example.ts`.
+The same results can be seen in `cd examples_for_claude && tsx index.ts`.
 
 ## Prerequisites
 
