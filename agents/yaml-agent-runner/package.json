@@ -1,0 +1,26 @@
+{
+  "name": "ccrunner",
+  "version": "0.0.1",
+  "description": "An agent runner that executes prompts and commands defined in YAML files.",
+  "main": "src/index.ts",
+  "bin": {
+    "ccrunner": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^1.0.51",
+    "yaml": "^2.8.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "tsx": "^4.20.3"
+  }
+}
