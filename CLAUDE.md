@@ -1,6 +1,10 @@
-# Claude Code Agent
+# Claude Code Agents Collection
 
-## Overview
+This repository is a collection of agents built using the Claude Code SDK. When agents become sufficiently useful and mature, they are extracted into separate repositories for publication on npm, similar to [https://github.com/hyshu/ccrunner](https://github.com/hyshu/ccrunner).
+
+## Claude Code Agent
+
+### Overview
 
 This program is a tool for creating desired applications by executing Claude Code. It provides a programmatic interface to interact with Claude's capabilities for code generation, file manipulation, and task automation.
 
